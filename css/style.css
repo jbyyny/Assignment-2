@@ -49,7 +49,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
 }
@@ -66,27 +66,78 @@ body {
   height: 500px;
 
 }
+.class {
+
+}
+
+.benefits {
+  font-size: 20px;
+  font-weight: 600px;
+  color: #fff;
+}
 
 header {
 
 }
 
 h1 {
+  font-weight: 800px;
+  font-size: 24px;
+  color: #fff;
+  padding-left: 40px;
+}
 
+.headline {
+  font-size: 24px;
+  font-weight: 600px;
+  text-align: center;
+  color: #fff;
 }
 
 h2 {
-  
+  font-weight: 
+  font-size: 20px;
+  font-weight: 600px;
+  color: #01204C;
+  padding-left: 40px;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 300px;
+}
+
+ul li {
+  font-size: 13px;
+  font-weight: 300px;
+}
+
+blockquote {
+  font-size: 18px;
+  font-weight: 300px;
+  font-style: italic;
+  color: #fff;
+  align-content: center;
 }
 
 footer {
-
+  font-size: 9px;
+  font-weight: 600px;
+  color: #fff;
+  text-align: center;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.name {
+  font-size: 18px;
+  font-weight: 600px;
+  color: #fff;
+}
 
-
-
+.cta {
+  font-weight: 800px;
+  font-size: 12px; 
+}
