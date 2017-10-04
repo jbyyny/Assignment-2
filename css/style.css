@@ -47,7 +47,7 @@ Developer @GA in NYC
 
 body {
      color: #000;
-     font-size: 12px;
+     /*font-size: 12px;*/
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
@@ -60,13 +60,10 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+.container {
   width: 100%;
   margin: auto;
   height: 500px;
-
-}
-.class {
 
 }
 
@@ -87,19 +84,29 @@ h1 {
   padding-left: 40px;
 }
 
+h2 {
+  font-size: 20px;
+  font-weight: 600px;
+  color: #01204C;
+  padding-left: 40px;
+}
+
+h3 {
+  font-weight: 800px;
+  font-size: 24px;
+  color: #F4F416;
+  text-align: center;
+  padding: 20px;
+}
+
 .headline {
   font-size: 24px;
   font-weight: 600px;
   text-align: center;
   color: #fff;
-}
-
-h2 {
-  font-weight: 
-  font-size: 20px;
-  font-weight: 600px;
-  color: #01204C;
-  padding-left: 40px;
+  margin: auto; 
+  border: none;
+  padding: 60px;
 }
 
 p {
@@ -117,7 +124,9 @@ blockquote {
   font-weight: 300px;
   font-style: italic;
   color: #fff;
-  align-content: center;
+  text-align: center;
+  width: 36.67;
+  margin: auto;
 }
 
 footer {
@@ -135,9 +144,83 @@ footer {
   font-size: 18px;
   font-weight: 600px;
   color: #fff;
+  text-align: center;
+  width: 36.67;
+  margin: auto;
+  padding: 50px;
 }
 
 .cta {
   font-weight: 800px;
-  font-size: 12px; 
+  font-size: 12px;
+  width: 36.67;
+  color: #FFF;
+  background-color: #01204C; 
+  border: none;
+  border-radius: 5px;
+  padding: 10px 32px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 8px 2px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.yellow-bar {
+  margin: auto; 
+  border: none;
+  padding: 10px;
+  background-color: #F4F416;
+  text-align: center;
+}
+
+.testimonial {
+  margin: auto; 
+  border: none;
+  padding: 10px;
+}
+
+.perfect {
+  padding-left: 40px;
+
+}
+
+.button-spacing {
+  padding: 40px;
+  text-align: center;
+}
+
+.get-button {
+  background-color: #F4F416; 
+  border: none;
+  color: #01204C;
+  font-weight: 800px;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 15px 32px;
+  margin: auto;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.twitter {
+  margin: auto; 
+  border: none;
+  padding: 20px;
+}
+
+.facebook {
+  margin: auto; 
+  border: none;
+  padding: 20px;
+}
+ul li {
+  padding-left: 60px;
+  line-height: 1.7em;
+}
+
+.copyright {
+  padding: 50px;
 }
