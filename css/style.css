@@ -104,7 +104,6 @@ h3 {
   font-size: 24px;
   color: #F4F416;
   text-align: center;
-  padding: 20px;
 }
 
 .headline {
@@ -124,14 +123,14 @@ p {
 
 ul li {
   font-size: 13px;
-  font-weight: 300px;
+  font-weight: 300;
 }
 
 blockquote {
   font-size: 18px;
-  font-weight: 300px;
+  font-weight: 300;
   font-style: italic;
-  color: #fff;
+  color: #ccc;
   text-align: center;
   width: 36.67;
   margin: auto;
@@ -139,10 +138,11 @@ blockquote {
 
 footer {
   font-size: 9px;
-  font-weight: 600px;
-  color: #fff;
+  font-weight: 600;
+  color: #FFF;
   text-align: center;
-  background-color: #ccc;
+  background-color: #01204C;
+  padding-top: 20px;
 }
 
 /******************************************
@@ -187,6 +187,8 @@ footer {
   margin: auto; 
   border: none;
   padding: 10px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
 }
 
 .perfect {
@@ -223,12 +225,16 @@ footer {
 
 .facebook {
   margin: auto; 
-  border: none;
   padding: 20px;
 }
+
 ul li {
   padding-left: 60px;
   line-height: 1.7em;
+}
+
+ul {
+  list-style-type: disc;
 }
 
 .copyright {
