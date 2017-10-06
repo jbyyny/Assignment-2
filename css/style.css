@@ -78,10 +78,8 @@ header {
 .benefits {
   font-size: 20px;
   font-weight: 600;
-  color: #fff;
+  color: #f0efef;
 }
-
-
 
 h1 {
   font-weight: 800;
@@ -95,15 +93,17 @@ h1 {
 h2 {
   font-size: 20px;
   font-weight: 600;
-  color: #01204C;
+  color: #033048;
   padding-left: 40px;
 }
 
 h3 {
   font-weight: 800;
   font-size: 24px;
-  color: #F4F416;
+  color: #f9e42e;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .headline {
@@ -111,8 +111,7 @@ h3 {
   font-weight: 600;
   text-align: center;
   color: #fff;
-  margin: auto; 
-  border: none;
+  margin: auto;
   padding: 40px;
 }
 
@@ -127,6 +126,11 @@ ul li {
 }
 
 blockquote {
+  display: block;
+  padding: 40px 20px 10px 45px;
+  width: 370px;
+  position: relative;
+  /*font*/
   font-size: 18px;
   font-weight: 300;
   font-style: italic;
@@ -141,7 +145,7 @@ footer {
   font-weight: 600;
   color: #FFF;
   text-align: center;
-  background-color: #01204C;
+  background-color: #033048;
   padding-top: 20px;
 }
 
@@ -156,7 +160,7 @@ footer {
   text-align: center;
   width: 36.67;
   margin: auto;
-  padding: 50px;
+  padding: 5px 15px 50px 15px;
 }
 
 .cta {
@@ -164,7 +168,7 @@ footer {
   font-size: 12px;
   width: 36.67;
   color: #FFF;
-  background-color: #01204C; 
+  background-color: #033048; 
   border: none;
   border-radius: 5px;
   padding: 10px 32px;
@@ -179,7 +183,7 @@ footer {
   margin: auto; 
   border: none;
   padding: 10px;
-  background-color: #F4F416;
+  background-color: #f9e42e;
   text-align: center;
 }
 
@@ -193,17 +197,20 @@ footer {
 
 .perfect {
   padding-left: 40px;
-
+  font-size: 13px;
+  font-weight: 400;
 }
 
 .button-spacing {
-  padding: 30px;
+  margin: auto; 
+  padding-top: 10px;
+  padding-bottom: 200px;
   text-align: center;
 
 }
 
 .get-button {
-  background-color: #F4F416; 
+  background-color: #f9e42e; 
   border: none;
   color: #01204C;
   font-weight: 800;
@@ -239,4 +246,8 @@ ul {
 
 .copyright {
   padding: 50px;
+  font-size: 9px;
+  font-weight: 600;
 }
+
+
