@@ -54,8 +54,12 @@ Developer @GA in NYC
 }*/
 
 body {
-     font-family: 'Open Sans', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       line-height: 1.4;
+      /* background-color: magenta; -- HAVE QUESTION ABOUT THIS STRIP AT BOTTOM*/
+      background-color: #121212;
+      margin: 0;
+      padding: 0;
 }
 
 
@@ -64,15 +68,15 @@ body {
 /*******************************************/
 
 /* Center the container */
-.container {
+#container {
   width: 100%;
-  margin: auto;
-  height: 500px;
-}
+  margin: 0 auto;
+  background-color: white;
+ }
 
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-    background-size: cover;
+  background-size: cover;
 }
 
 .benefits {
@@ -183,7 +187,7 @@ footer {
   border: none;
   padding: 10px;
   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  background-size: cover;
 }
 
 .perfect {
@@ -196,12 +200,10 @@ footer {
   width: 370px;
 }
 
-
 .bullets  {
   padding-left: 50px;
   padding-bottom: 50px;
   font-size: 13px;
-  font-weight: 300;
   color: #606161;
 }
 
@@ -222,7 +224,6 @@ li {
   padding-top: 10px;
   padding-bottom: 180px;
   text-align: center;
-
 }
 
 .get-button {
@@ -240,15 +241,13 @@ li {
   cursor: pointer;
 }
 
-.twitter {
-  margin: auto; 
-  border: none;
-  padding: 20px;
+.social {
+  margin: 0 auto;
 }
 
-.facebook {
-  margin: auto; 
-  padding: 20px;
+.social-icon {
+  height: 25px;
+  margin: 10px;
 }
 
 .copyright {
